@@ -1,0 +1,41 @@
+/* SETTING ENTIRE BODY TAG BACKGROUND COLOR */
+#entirebody {
+    background-color: lightslategray;
+}
+
+/* GITHUB ICON STYLING */
+#github-icon {
+   display: flex;
+   justify-content: center;
+   opacity: 0.65;
+}
+
+/* LINK TAGS WITHIN RESULTS STYLING */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* "GitHub API Scraper" TITLE STYLING */
+#site-description {
+    user-select: none;
+    font-family: 'Arapey', serif;
+    font-size: 30pt;
+    text-align: center;
+    color: whitesmoke;
+    opacity: 0.8;
+}
+
+/* FOOTER STYLING */
+#footer {
+    font-family: 'Arapey', serif;
+    color: whitesmoke;
+    opacity: 0.8;
+    text-align: center;
+}
+
+/* STYLING FOR GITHUB ICON WHEN USER HOVERS */
+#github-icon:hover {
+    opacity: 1;
+    cursor: pointer;
+ }

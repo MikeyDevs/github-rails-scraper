@@ -1,0 +1,98 @@
+/* SETTING BACKGROUND COLOR FOR MAIN CONTENT */
+#body {
+    font-family: 'Arapey', serif;
+    font-size: 20pt;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+/* "Open Rails Issues" STYLING */
+#title {
+    font-size: 50pt;
+    user-select: none;
+}
+
+/* REMOVING DEFAULT STYLING (BULLETS) OF RESULTS LIST */
+ul li {
+    list-style-type: none;
+}
+
+/* FORMATTING ALL BUTTONS ON PAGE */
+button {
+    font-family: 'Arapey', serif;
+    font-size: 12pt;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+/* MOVING SORTING BUTTONS INTO POSITION */
+#sorting-buttons {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* ON HOVER STYLING FOR FILTER BUTTONS ACCORDING TO ACTUAL GITHUB COLORING */
+#actioncable-button:hover {
+    background-color: #bfdadc;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+}
+
+#actionmailer-button:hover {
+    background-color: #8B00FC;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+}
+
+#actionpack-button:hover {
+    background-color: #FFF700;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+}
+
+#actionview-button:hover {
+    background-color: #d7e102;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+}
+
+#activejob-button:hover {
+    background-color: #5319e7;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+}
+
+#activemodel-button:hover {
+    background-color: #00E5FF;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+}
+
+#activerecord-button:hover {
+    background-color: #0b02e1;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+}
+
+#activestorage-button:hover {
+    background-color: #bfd4f2;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+}
+
+#activesupport-button:hover {
+    background-color: #FC9300;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+}
+
+#assetpipeline-button:hover {
+    background-color: #d7e102;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+}
+
+/* ON HOVER STLING FOR SORTING BUTTONS */
+#sort-ascending-button:hover {
+    background-color: lightgrey;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+}
+
+#sort-descending-button:hover {
+    background-color: lightgrey;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19);
+}
